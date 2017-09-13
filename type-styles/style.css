@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i');
+
+html {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+}
+
+p {
+	font-size: 22px;
+	font-weight: 200;
+	line-height: 0.8;
+}
+
+p:hover {
+	background-color: yellow;
+}
+
+h1 {
+	display: block;
+	width: 300px;
+	font-size: 70px;
+	float: left;
+}
+
+h2 {
+	display: block;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+h3 {
+	display: block;
+	width: 300px;
+	text-align: left;
+	float: right;
+	margin-top: 70px;
+	font-weight: 200;
+}
+
+.header {
+	width: 600px;
+	height: 200px;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	margin-bottom: 75px;
+
+}
+
+.section {
+	width: 600px;
+	height: 600px;
+	display: block;
+	margin: auto;
+	margin-bottom: 35px;
+	padding-top: 15px;
+	padding-left: 25px;
+	background: radial-gradient(#f9fbff, #dadde5);
+}
+
+.content {
+	width: 550px;
+	height: 425px;
+	margin-left: 40px;
+	padding-top: 10px;
+}
+
+.attribute {
+	font-size: 18px;
+	color: grey;
+	font-weight: 300;
+}
+
+.attribute:hover {
+	background-color: none;
+}
+
+.fw-normal {
+	font-weight: normal;
+}
+
+.fw-bold {
+	font-weight: bold;
+}
+
+.fs-normal {
+	font-style: normal;
+}
+
+.fs-italic {
+	font-style: italic;
+}
+
+.ls-normal {
+	letter-spacing: normal;
+}
+
+.ls-03 {
+	letter-spacing: 0.3em;
+}
+
+.ls-006 {
+	letter-spacing: -0.06em;
+}
+
+.td-none {
+	text-decoration: none;
+}
+
+.td-underline {
+	text-decoration: underline;
+}
+
+.td-line-through {
+	text-decoration: line-through;
+}
+
+.td-overline {
+	text-decoration: overline;
+}
+
+.tt-none {
+	text-transform: none;
+}
+
+.tt-uppercase {
+	text-transform: uppercase;
+}
+
+.tt-lowercase {
+	text-transform: lowercase;
+}
+
+.tt-capitalize {
+	text-transform: capitalize;
+}
+
+.weight {
+	height: 400px;
+}
+
+.style {
+	height: 400px;
+}
+
+.spacing {
+	height: 525px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
