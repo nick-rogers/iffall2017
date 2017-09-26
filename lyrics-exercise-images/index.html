@@ -1,0 +1,284 @@
+<DOCTYPE! html>
+<html>
+	<head>
+	<title>The Suburbs - Arcade Fire</title>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" type="image/x-icon" href="icon.png" />
+	<style>
+
+	@import url('https://fonts.googleapis.com/css?family=Cutive+Mono|VT323');
+
+	/* font-family: 'VT323', monospace;
+		font-family: 'Cutive Mono', monospace;
+	*/
+
+		body {
+			background-color: black;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			margin-right: 0px;
+			margin-left: 0px;
+			font-family: monospace;
+			font-size: 20px;
+		}
+
+		h1 {
+			color: white;
+			font-family: 'VT323', monospace;
+			font-size: 40px;
+			line-height: 40px;
+			font-weight: 100;
+		}
+
+		h2 {
+			color: white;
+			font-family: sans-serif;
+			font-size: 20px;
+			font-style: italic;
+			font-weight: 100;
+			position: relative;
+			margin-top: -20px;
+		}
+
+		h3 {
+  			font-family: monospace;
+  			font-size: 25px;
+  			color: white;
+  			display: block;
+  			font-weight: 100;
+  		}
+
+		p {
+  			display: block;
+  			width: 100%;
+  			font-size: 2vw;
+  			line-height: 3.4vw;
+  			text-align: center;
+  			font-family: 'Cutive Mono', monospace;
+  			color: white;
+  			font-weight: 100;
+  			opacity: 0.7;
+  		}
+
+  		a:hover {
+  			text-decoration: underline;
+  		}
+
+  		.chorus {
+  		font-family: 'VT323', monospace;
+  		font-size: 3vw;
+  		}
+
+		.navigation {
+			width: 100%;
+			height: 10vw;
+			position: fixed;
+			z-index: 20;
+			text-align: center;
+			box-shadow: inset 0px 80px 80px 0px rgba(0, 0, 0, 0.65);
+		}
+
+		 .parallax {
+    		perspective: 1px;
+   			height: 100%;
+    		overflow-x: hidden;
+    		overflow-y: auto;
+    		z-index: 15;
+  		}
+
+  		.parallax__layer {
+    		position: absolute;
+    		top: 0;
+    		right: 0;
+    		bottom: 0;
+    		left: 0;
+  		}
+		.image-section {
+			position: relative;
+			width: 80%;
+			padding-bottom: 50%;
+			float: left;
+			height: 0;
+			z-index: 1;
+			margin-left: 10%;
+		}
+		.image-section div {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			background-image: url(flag.png);
+			background-size: 100% 100%;
+			opacity: 0.18;
+		}
+
+  		.container {
+    		width: 100%;
+    		transform: translateZ(-3px) scale(4);
+  		}
+
+  		.lyrics {
+  			width: 100%;
+  			height: 50vw;
+  			opacity: 1;
+  			text-align: center;
+  		}
+
+  		.verse {
+  			display: inline-block;
+  			height: inherit;
+  			width: 80%;
+  			opacity: 1;
+  		}
+
+  		.sources {
+  			z-index: 1;
+  			text-align: center;
+  		}
+
+  		.sources a {
+  			text-decoration: none;
+  			color: white;
+  			font-size: 2vw;
+  		}
+	</style>
+	</head>
+	<body>
+		<nav class="navigation">
+			<h1>The Suburbs</h1>
+			<h2>By: Arcade Fire</h2>
+		</nav>
+			<div class="parallax">
+				<div class="parallax__layer container">
+					<div class="image-section">
+						<div class="pic-background" style="background-image: 
+						url(suburb1.jpg); background-size: 100% 100%;"></div>
+					</div>
+					<div class="image-section">
+						<div class="pic-background" style="background-image: 
+						url(suburb2.jpg); background-size: 100% 100%;"></div>
+					</div>
+					<div class="image-section">
+						<div class="pic-background" style="background-image: 
+						url(suburb3.jpg); background-size: 100% 100%;"></div>
+					</div>
+					<div class="image-section">
+						<div class="pic-background" style="background-image: 
+						url(suburb4.jpg); background-size: 100% 100%;"></div>
+					</div>
+					<div class="image-section">
+						<div class="pic-background" style="background-image: 
+						url(suburb5.jpg); background-size: 100% 100%;"></div>
+					</div>
+					<div class="image-section">
+						<div class="pic-background" style="background-image: 
+						url(suburb6.jpg); background-size: 100% 100%;"></div>
+					</div>
+					<div class="image-section">
+						<div class="pic-background" style="background-image: 
+						url(suburb7.jpg); background-size: 100% 100%;"></div>
+					</div>
+					<div class="image-section">
+						<div class="pic-background" style="background-image: 
+						url(suburb8.jpg); background-size: 100% 100%;"></div>
+					</div>
+				</div>
+				<div class="parallax__layer lyrics" style="margin-top: 40vw;">
+					<div class="verse">
+						<h3>[Verse 1]</h3>
+						<p>In the suburbs, I, I learned to drive<br/>
+						And you told me we'd never survive<br/>
+						Grab your mother's keys, we're leaving<br/>
+						You always seemed so sure<br/>
+						That one day we'd be fighting in a suburban war<br/>
+						Your part of town against mine<br/>
+						I saw you standing on the opposite shore<br/>
+						But by the time the first bombs fell<br/>
+						We were already bored<br/>
+						We were already, already bored</p>
+						<img src="arcade.jpg" style="width: 100%; height: 90%; margin-top: 50px;"/>
+					</div>
+				</div>
+				<div class="parallax__layer lyrics" style="margin-top: 200vw;">
+					<div class="verse">
+						<h3>[Chorus]</h3>
+						<p class="chorus">Sometimes I can't believe it<br/>
+						I'm moving past the feeling<br/>
+						Sometimes I can't believe it<br/>
+						I'm moving past the feeling again</p>
+					</div>
+				</div>
+				<div class="parallax__layer lyrics" style="margin-top: 350vw;">
+					<div class="verse">
+						<h3>[Verse 2]</h3>
+						<p>The kids want to be so hard<br/>
+						But in my dreams, we're still screaming<br/>
+						And running through the yard<br/>
+						And all of the walls that they built in the seventies finally fall<br/>
+						And all of the houses they built in the seventies finally fall<br/>
+						Meant nothing at all<br/>
+						Meant nothing at all, it meant nothing</p>
+					</div>
+				</div>
+				<div class="parallax__layer lyrics" style="margin-top: 500vw;">
+					<div class="verse">
+						<h3>[Chorus]</h3>
+						<p class="chorus">Sometimes I can't believe it<br/>
+						I'm moving past the feeling<br/>
+						Sometimes I can't believe it<br/>
+						I'm moving past the feeling and into the night</p>
+					</div>
+				</div>
+				<div class="parallax__layer lyrics" style="margin-top: 650vw;">
+					<div class="verse">
+						<h3>[Verse 3]</h3>
+						<p>So can you understand<br/>
+						Why I want a daughter while I'm still young?<br/>
+						I want to hold her hand<br/>
+						And show her some beauty before this damage is done<br/>
+						But if it's too much to ask, if it's too much to ask<br/>
+						Then send me a son<br/>
+						Under the overpass<br/>
+						In the parking lot we're still waiting, it's already passed<br/>
+						So move your feet from hot pavement and into the grass<br/>
+						'Cause it's already passed<br/>
+						It's already, already passed</p>
+					</div>
+				</div>
+				<div class="parallax__layer lyrics" style="margin-top: 800vw;">
+					<div class="verse">
+						<h3>[Chorus]</h3>
+						<p class="chorus">Sometimes I can't believe it<br/>
+						I'm moving past the feeling<br/>
+						Sometimes I can't believe it<br/>
+						I'm moving past the feeling again<br/>
+						I'm moving past the feeling<br/>
+						I'm moving past the feeling</p>
+					</div>
+				</div>
+				<div class="parallax__layer lyrics" style="margin-top: 950vw;">
+					<div class="verse">
+						<h3>[Outro]</h3>
+						<p>In my dreams we're still screaming<br/>
+						We're still screaming<br/>
+						We're still screaming</p>
+					</div>
+				</div>
+				<div class="parallax__layer lyrics" style="margin-top: 1100vw;">
+					<div class="verse">
+						<h3>Created By:</h3>
+						<p> Nick Rogers</p>
+					</div>
+				</div>
+				<div class="parallax__layer lyrics" style="margin-top: 1250vw;">
+					<div class="verse">
+						<h3>Resources Used:</h3>
+						<p class="sources"><br/>
+						<a href="http://keithclark.co.uk/articles/pure-css-parallax-websites/">Pure CSS Parallax by Keith Clark</a><br/>
+						<a href="http://www.wmyl.se/en/blog/proportional-scaling-responsive-boxes-using-just-css/">Proportional CSS scaling from www.wmyl.se</a>
+						</p>
+					</div>
+				</div>
+			</div>
+	</body>
+</html>
