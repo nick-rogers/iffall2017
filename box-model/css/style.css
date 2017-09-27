@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow:400,400i,500,500i,600,600i,700,700i');
+
+/*font-family: 'Archivo Narrow', sans-serif;*/
+
+body {
+	min-height: 2315px;
+	padding: 0;
+	margin: 0;
+	background-position:center top;
+}
+
+section {
+	width: 100%;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font-size: 80px;
+	font-family: 'Archivo Narrow', sans-serif;
+	color: white;
+	margin-bottom: -29px;
+}
+
+h2 {
+	font-size: 40.29px;
+	font-family: 'Archivo Narrow', sans-serif;
+	display: inline-block;
+	font-weight: 700;
+	letter-spacing: 0.018px;
+	margin-bottom: 32px;
+	margin-top: 41.5px;
+	color: #14170F;
+}
+
+.header2 {
+	color: white;
+}
+
+h3 {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Archivo Narrow', sans-serif;
+	color: white;
+	margin-left: -6px;
+}
+
+h4 {
+	text-align: left;
+	font-size: 20px;
+	font-family: 'Archivo Narrow', sans-serif;
+	color: black;
+	margin-top: 2px;
+	font-weight: 600;
+	letter-spacing: 0.70px;
+	color: white;
+}
+
+p {
+	font-family: 'Archivo Narrow', sans-serif;
+	text-align: left;
+	margin: 0;
+	font-size: 19px;
+	letter-spacing: -0.35px;
+	margin-bottom: -5px;
+	color: grey;
+}
+
+.pic1 {
+	width: 400px;
+	height: 300px;
+	background-color: darkblue;
+	display: block;
+	float: right;
+	background-image: url(https://i.imgur.com/wHSojib.png);
+	background-size: 100% 100%;
+}
+
+.small-image {
+	display: block;
+	float: left;
+	background-color: white;
+	width: 200px;
+	height: 150px;
+	margin-right: 12px;
+}
+
+.photo-title {
+margin-top: -21px;
+}
+
+.header1 {
+}
+
+.container-1 {
+	height: 390px;
+	display: block;
+	float: left;
+	padding-top: 90px;
+	background-image: url(https://i.imgur.com/Z5mMu2y.png);
+	background-size: 100% auto;
+	background-position: bottom;
+}
+
+.container-2 {
+	height: 646px;
+	float: left;
+}
+
+.container-3 {
+	height: 679px;
+	float: left;
+	background-color: #474144;
+}
+
+.container-3 > .inner-container {
+	height: 498px;
+}
+
+.left {
+	width: 50%;
+	height: 100%;
+	float: left;
+	display: inline-block;
+}
+
+.right {
+	width: 50%;
+	height: 100%;
+	float: right;
+	display: inline-block;
+}
+
+.subsection {
+	width: 100%;
+	height: 150px;
+	display: block;
+	float: left;
+	margin-bottom: 24px;
+	color: white;
+}
+
+.container-4 {
+	height: 412px;
+	float: left;
+}
+
+.container-4 > .inner-container {
+	height: 200px;
+}
+
+.container-5 {
+	height: 98px;
+	float: left;
+	text-align: center;
+	background-color: #474144;
+}
+
+.inner-container {
+	width: 960px;
+	height: 469px;
+	margin: 0 auto;
+}
+
+.bottom-text {
+	font-size: 28px;
+	text-align: center;
+}
+
+.footer {
+	width: 960px;
+	height: 30px;
+	display: inline-block;
+	margin-top: 35px;
+}
+
+.footer p {
+	margin-top: 5px;
+	font-weight: 600;
+	letter-spacing: -0.72px;
+	display: block;
+	float: left;
+}
+
+.icons {
+	width: 92px;
+	height: 26px;
+	background-image: url(https://i.imgur.com/3AmLn9S.png);
+	background-size: 100% 100%;
+	display: block;
+	float: right;
+	margin-top: 2px;
+	margin-left: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
