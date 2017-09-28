@@ -66,6 +66,10 @@ p {
 	color: grey;
 }
 
+i {
+	color: white;
+}
+
 .pic1 {
 	width: 400px;
 	height: 300px;
@@ -185,11 +189,10 @@ margin-top: -21px;
 .icons {
 	width: 92px;
 	height: 26px;
-	background-image: url(https://i.imgur.com/3AmLn9S.png);
 	background-size: 100% 100%;
 	display: block;
 	float: right;
-	margin-top: 2px;
+	margin-top: 0.5px;
 	margin-left: 3px;
 }
 
