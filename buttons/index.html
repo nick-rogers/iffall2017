@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Buttons &mdash; Nick Rogers</title>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		
+		<style>
+
+			@font-face {
+				font-family: newYorker;
+    			src: url(NEWYORKR.TTF);
+			}
+
+			body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			#main_content {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			a {
+				text-decoration: none;
+			}
+
+			a:visited, a:link {
+				color: black;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+
+
+			a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: #2ebfec; /* Old browsers */
+				background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+			}
+
+
+			a#btn_amazon {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+			}
+
+
+			a#btn_indiegogo {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+			}
+
+			a#btn_indiegogo:hover {
+				color: #fff;
+				background-color: #eb1478;
+			}
+
+			a#btn_cocaCola {
+				display: block;
+				width: 100px;
+				height: 100px;
+				background-image: url(coca-cola.png);
+				background-size: 100% 100%;
+				margin: 0 auto;
+				margin-top: 75px;
+			}
+
+			a#btn_cocaCola:hover {
+				filter: grayscale(100);
+			}
+
+			a#btn_nerf {
+				display: block;
+				width: 170px;
+				height: 100px;
+				background-image: url(nerf.png);
+				background-size: 100% 100%;
+				margin: 0 auto;
+				margin-top: 70px;
+			}
+
+			a#btn_nerf:hover {
+				filter: blur(0.5px);
+			}
+
+			a#btn_craigslist {
+				display: block;
+				width: 220px;
+				height: 50px;
+				background-color: lightgrey;
+				color: blue;
+				font-family: serif;
+				font-size: 30px;
+				margin: 0 auto;
+				margin-top: 90px;
+			}
+
+			a#btn_craigslist:hover {
+				background-color: blue;
+				color: white;
+			}
+
+			a#btn_lyft {
+				display: block;
+				width: 150px;
+				height: 100px;
+				background-image: url(lyft.png);
+				background-size: 100% 100%;
+				margin: 0 auto;
+				margin-top: 70px;
+			}
+
+			a#btn_lyft:hover {
+				transform: rotateY(90deg);
+				transition: 0.4s;
+			}
+
+			a#btn_cn {
+				width: 100px;
+				height: 70px;
+				display: block;
+				font-size: 50px;
+				font-weight: 900;
+				background-color: black;
+				color: white;
+				margin: 0 auto;
+				margin-top: 70px;
+			}
+
+			a#btn_cn:hover {
+				background-color: white;
+				color: black;
+			}
+
+			a#btn_nike {
+				display: block;
+				height: 100px;
+				width: 150px;
+				font-size: 50px;
+				font-weight: 700;
+				margin: 0 auto;
+				margin-top: 80px;
+				font-style: italic;
+			}
+
+			a#btn_nike:hover {
+				transform: translate(50px);
+			}
+
+			a#btn_botanicalGarden {
+				display: block;
+				width: 150px;
+				height: 60px;
+				background-color: lightgreen;
+				color: white;
+				font-family: serif;
+				font-weight: 100;
+				padding-top: 20px;
+				border-radius: 5px;
+				margin: 0 auto;
+				margin-top: 70px;
+			}
+
+			a#btn_botanicalGarden:hover {
+				width: 200px;
+				height: 80px;
+				font-size: 25px;
+			}
+
+			a#btn_tesla {
+				display: block;
+				width: 100px;
+				height: 100px;
+				background-image: url(tesla.png);
+				background-size: 100% 100%;
+				margin: 0 auto;
+				margin-top: 70px;
+			}
+
+			a#btn_tesla:hover {
+				filter: brightness(0);
+			}
+
+			a#btn_pottermore {
+				display: block;
+				width: 100px;
+				height: 100px;
+				background-image: url(bolt-01.png);
+				background-size: 100% 100%;
+				margin: 0 auto;
+				margin-top: 65px;
+			}
+
+			a#btn_pottermore:hover {
+				filter: blur(2px);
+			}
+
+			a#btn_fitbit {
+				display: block;
+				width: 200px;
+				height: 200px;
+				background-image: url(fit-01.png);
+				background-size: 100% 100%;
+				margin: 0 auto;
+				margin-top: 20px;
+			}
+
+			a#btn_fitbit:hover {
+				transform: rotate(360deg);
+				transition: 0.5s;
+			}
+
+			a#btn_exploding {
+				display: block;
+				width: 250px;
+				height: 170px;
+				background-image: url(kitten-01.png);
+				background-size: 100% 100%;
+				margin: 0 auto;
+				margin-top: 40px;
+			}
+
+			a#btn_exploding:hover {
+				filter: hue-rotate(90deg);
+			}
+
+			a#btn_stjude {
+				display: block;
+				width: 250px;
+				height: 250px;
+				background-image: url(stjude-01.png);
+				background-size: 100% 100%;
+				margin: 0 auto;
+				margin-top: 0px;
+				opacity: 0.7;
+			}
+
+			a#btn_stjude:hover {
+				opacity: 1;
+			}
+
+			a#btn_ny {
+				font-family: newYorker;
+				font-size: 30px;
+				display: inline-block;
+				margin-top: 100px;
+			}
+
+			a#btn_ny:hover {
+				opacity: 0.5;
+			}
+
+			a#btn_foreFlight {
+				display: block;
+				width: 200px;
+				height: 200px;
+				background-image: url(fore-01.png);
+				background-size: 100% 100%;
+				margin: 0 auto;
+				margin-top: 20px;
+			}
+
+			a#btn_foreFlight:hover {
+				transform: rotate(180deg);
+				transition: 0.7s;
+			}
+
+			a#btn_npr {
+				display: inline-block;
+				width: 150px;
+				height: 50px;
+				background-image: url(npr.jpg);
+				background-size: 100% 100%;
+				margin-top: 100px;
+			}
+
+			a#btn_npr:hover {
+				opacity: 0.7;
+				filter:hue-rotate(50deg);
+			}
+
+			a#btn_velocity {
+				display: block;
+				width: 200px;
+				height: 200px;
+				background-image: url(velocity-01.png);
+				background-size: 100% 100%;
+				margin: 0 auto;
+				margin-top: 20px;
+			}
+
+			a#btn_velocity:hover {
+				width: 300px;
+				height: 300px;
+				margin: 0 auto;
+				margin-top: 10px;
+			}
+
+			a#btn_hsn {
+				width: 120px;
+				height: 50px;
+				background-color: #00a3e0;
+				display: block;
+				color: white;
+				text-align: center;
+				margin: 0 auto;
+				margin-top: 75px;
+				border-radius: 5px;
+				font-family: sans-serif;
+				font-size: 40px;
+			}
+
+			a#btn_hsn:hover {
+				font-size: 20px;
+			}
+
+			a#btn_insta {
+				display: inline-block;
+				color: purple;
+				margin-top: 70px;
+			}
+
+			a#btn_insta:hover {
+				color: orange;
+			}
+
+			a#btn_facebook {
+				display: inline-block;
+				color: #4267b2;
+				margin-top: 70px;
+			}
+
+			a#btn_facebook:hover {
+				box-shadow: 2px 2px 2px black;
+			}
+
+			a#btn_oldNavy {
+				display: block;
+				width: 150px;
+				height: 50px;
+				border-radius: 60px;
+				background-color: darkblue;
+				color: white;
+				text-align: center;
+				padding-top: 15px;
+				margin: 0 auto;
+				margin-top: 70px;
+				font-size: 25px;
+				font-weight: 500;
+			}
+
+			a#btn_oldNavy:hover {
+				filter: grayscale(20);
+			}
+
+			a#btn_army {
+				display: block;
+				width: 150px;
+				height: 150px;
+				background-image: url(army-01.png);
+				background-size: 100% 100%;
+				margin: 0 auto;
+				margin-top: 40px;
+			}
+
+			a#btn_army:hover {
+				filter: brightness(0);
+			}
+
+		</style>
+	</head>
+	<body>
+		
+		<div id="main_content">
+
+			<h1>Button Styling &mdash; Nick Rogers</h1>
+			
+			<div class="button_container">
+				<a href="http://www.spotify.com" target="_blank" id="btn_spotify">Spotify</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.amazon.com" target="_blank" id="btn_amazon"><i class="fa fa-amazon"></i></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.twitter.com" target="_blank" id="btn_twitter">twitter</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.indiegogo.com" target="_blank" id="btn_indiegogo">indiegogo</a>
+			</div>
+
+
+
+
+
+
+			<div class="button_container">
+				<a href="http://www.coca-cola.com/" target="_blank" id="btn_cocaCola"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://nerf.hasbro.com/en-us" target="_blank" id="btn_nerf"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://stlouis.craigslist.org/" target="_blank" id="btn_craigslist">craigslist</a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.lyft.com/" target="_blank" id="btn_lyft"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.cartoonnetwork.com/" target="_blank" id="btn_cn">CN</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.nike.com/us/en_us/" target="_blank" id="btn_nike">NIKE</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.missouribotanicalgarden.org/" target="_blank" id="btn_botanicalGarden">Missouri Botanical Garden</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.teslamotors.com/" target="_blank" id="btn_tesla"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.pottermore.com/" target="_blank" id="btn_pottermore"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.fitbit.com/home" target="_blank" id="btn_fitbit"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.explodingkittens.com/" target="_blank" id="btn_exploding"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.stjude.org/" target="_blank" id="btn_stjude"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.newyorker.com/" target="_blank" id="btn_ny">New Yorker</a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.foreflight.com/" target="_blank" id="btn_foreFlight"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.npr.org/" target="_blank" id="btn_npr"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.velocity.com/" target="_blank" id="btn_velocity"></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.hsn.com/" target="_blank" id="btn_hsn">HSN</a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.instagram.com/" target="_blank" id="btn_insta"><i class="fa fa-instagram fa-5x" aria-hidden="true"></i></a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.facebook.com/" target="_blank" id="btn_facebook"><i class="fa fa-facebook-square fa-5x" aria-hidden="true"></i></a>
+			</div>
+
+			<div class="button_container">
+				<a href="http://www.oldnavy.com/" target="_blank" id="btn_oldNavy">Old Navy</a>
+			</div>
+
+			<div class="button_container">
+				<a href="https://www.army.mil/" target="_blank" id="btn_army"></a>
+			</div>
+
+
+
+
+
+		</div>	
+
+	</body>
+</html>
