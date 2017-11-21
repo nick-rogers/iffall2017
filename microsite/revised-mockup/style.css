@@ -1,0 +1,14 @@
+body {
+  		margin: 0;
+  	}
+
+.main {
+	display: block;
+	margin: 0 auto;
+	width: 800px;
+	margin-top: 20px;
+	height: 4000px;
+	background-image: url(LynnHillUpdated.png);
+	background-size: 100% 88%;
+	background-repeat: no-repeat;
+}
