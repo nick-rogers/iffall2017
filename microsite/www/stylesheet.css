@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Passion+One:400,700');
+
+
+
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+  }
+
+  .parallax {
+    perspective: 1px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .parallax__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .parallax-base {
+    transform: translateZ(0);
+    width: 100%;
+    display: block;
+    height: 660vw;
+    background-image: url(MountainTexture.svg);
+    background-size: 100% 100%;
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-top: 200px;
+  }
+
+  .parallax-back {
+    transform: translateZ(-2px) scale(3);
+    width: 100%;
+    display: block;
+    height: 660vw;
+    color: white;
+    text-align: center;
+    background-color: blue;
+    background-image: url(backTexture.png);
+    background-size: 100% 100%;
+  }
